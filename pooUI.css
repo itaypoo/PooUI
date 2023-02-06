@@ -228,7 +228,7 @@ div.card.card-button:active {
 
 /* Dropdown Menu */
 
-.has-dropdown:focus + .dropdown {
+.has-dropdown:focus + div.dropdown {
     opacity: 1;
     z-index: 999;
     scale: 1 1;
@@ -274,4 +274,30 @@ div.dropdown > button:hover {
 ul.dropdown:focus-within {
     opacity: 1;
     z-index: 2;
+}
+
+
+
+/* Tooltip */
+
+.has-tooltip:hover + div.tooltip {
+    opacity: 1;
+    z-index: 999;
+    scale: 1 1;
+}
+div.tooltip {
+    opacity: 0;
+    z-index: -999;
+    scale: 1 0.7;
+    transform-origin: top center;
+    position: absolute;
+    margin-top: 5px;
+    background-color: var(--color-on-background);
+    color: var(--color-background);
+    border-radius: 10px;
+    padding: 10px;
+
+    transition: opacity ease-in-out 100ms,
+                z-index ease-in-out 100ms,
+                scale ease-in-out 100ms;
 }
