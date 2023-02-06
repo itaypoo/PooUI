@@ -5,6 +5,7 @@ PooUI supplies you with the basic needs of a website like buttons, cards, ropdow
 
 Basic elements like button, input and text are already styled, and you can add custom elements with classes like a dropdown menu.
 
+You can customize PooUI's colors by editing the :root section of the css file.
   
 ## Buttons
   
