@@ -293,6 +293,7 @@ div.tooltip {
     position: absolute;
     margin-top: 5px;
     background-color: var(--color-on-background);
+    box-shadow: 0 3px 15px 0px var(--color-on-background-faded);
     color: var(--color-background);
     border-radius: 10px;
     padding: 10px;
